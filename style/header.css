@@ -2,6 +2,20 @@
     width: 24px;
     height: 24px;
     background: uel("../img/menu.svg");
-    display: inline-block;}
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+}
     .cabecalho{
-        background-color: aliceblue;}
+        background-color: aliceblue;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .container{
+        display: flex;
+        align-items: center;
+    }
+    .container__imagem{
+        padding: 1em;
+    }
