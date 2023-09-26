@@ -1,8 +1,8 @@
-.cabecalho_menu-hamburguer{
+.cabecalho__menu-hamburguer{
 
     width: 24px;
     height: 24px;
-    background: uel("../img/menu.svg");
+    background-image: url("../img/Menu.svg");
     display: inline-block;
     background-repeat: no-repeat;
     background-position: center;
@@ -42,6 +42,9 @@
     text-decoration: none;}
 
 .container__titulo{
+    display: none;}
+
+.container__botao{
     display: none;}
 
 .container__botao:checked~.lista-menu{
