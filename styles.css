@@ -1,14 +1,17 @@
 @import url('styles/header.css');
-@import url('style/reset.css');
-    :root{
+@import url('style/banner.css');
 
+
+    :root{
         --cor-de-fundo: #EBECEE;
         --branco: #FFFFFF;
         --amarelo:#FECD2F;
         --roxo:#994984;
-    }
+        --font-principal: "Poppins"}
         
     body{
         background-color: var(--cor-de-fundo);
-    }
+        font-family: var(--font-principal);
+        font-size: 16px;
+        font-weight: 400;}
                  
